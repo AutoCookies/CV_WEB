@@ -23,38 +23,43 @@ const Journey = () => {
             </div>
             <div className="card1">
                 <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>1</span>
-                <h3>Data Analysis Skils</h3>
+                <h2>Data Analysis Skils</h2>
                 <p>The first skills I learn is Data Analysis, just study for fun but time through time It bring me a strange feeling. Maybe I am good at this.</p>
             </div>
             <div className="card2">
                 <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>2</span>
-                <h3>Enhance Data Analysis Skils</h3>
+                <h2>Enhance Data Analysis Skils</h2>
                 <p>Well! I began to study some courses on COURSERA and get Its certificates</p>
             </div>
             <div className="card3">
                 <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>3</span>
-                <h3>Not Enough!</h3>
+                <h2>Not Enough!</h2>
                 <p>After gotten some certificates, I start my projects in Data Analist field</p>
             </div>
             <div className="card4">
                 <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>4</span>
-                <h3>Still Not Enough!</h3>
+                <h2>Still Not Enough!</h2>
                 <p>I heard some others said, If you want to work with Data you must learn Machine Learning</p>
             </div>
             <div className="card5">
                 <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>5</span>
-                <h3>Begin to learn Machine Learning</h3>
+                <h2>Begin to learn Machine Learning</h2>
                 <p>So I started my journey with Machine Learning on Youtube and COURSERA</p>
             </div>
             <div className="card6">
-                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>5</span>
-                <h3>Do some Project about Machine Learning</h3>
+                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>6</span>
+                <h2>Do some Project about Machine Learning</h2>
                 <p>As before I practice my skill by doing some real world projects</p>
             </div>
             <div className="card7">
-                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>5</span>
-                <h3>Begin Study Web Development</h3>
+                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>7</span>
+                <h2>Begin Study Web Development</h2>
                 <p>I see there are so many people study this, so I just follow.</p>
+            </div>
+            <div className="card8">
+                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>8</span>
+                <h2>Begin Study Game Development</h2>
+                <p>Just for relaxing</p>
             </div>
         </div>
     );

@@ -27,7 +27,6 @@ body {
     margin-bottom: 10px;
     background: linear-gradient(rgb(225, 150, 58), rgb(227, 144, 91));
     transition: .6s;
-
     transform: rotatex(75deg) translatey(-200px) translatez(-100px);
     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
 }
@@ -46,7 +45,7 @@ body {
     color: rgba(86, 25, 253, 0.5);
 }
 
-h3 {
+h2 {
     font-size: 25px;
     font-family: 'Abel', sans-serif;
     color: rgb(255, 255, 255);
@@ -54,7 +53,7 @@ h3 {
     transform: translatey(10px);
 }
 
-p {
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p, .card7 p, .card8 p {
     font-family: 'Abel', sans-serif;
     color: white;
     text-align: center;
@@ -220,6 +219,33 @@ p {
 }
 
 .card7 span {
+    transform: translateY(15px);
+    width: 180px;
+    height: 150px;
+}
+
+.card8 {
+    text-align: center;
+    position: absolute;
+    left: 3250px;
+    width: 250px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(#0e1bce, #7ed808);
+    transition: .6s;
+
+    transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card8:hover {
+    transform: rotatex(0deg);
+    transition: .6s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card8 span {
     transform: translateY(15px);
     width: 180px;
     height: 150px;

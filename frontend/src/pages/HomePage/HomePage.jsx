@@ -22,6 +22,7 @@ const HomePage = () => {
         <Link to="/web_projects">Web Projects</Link>
         <Link to="/games">My Games</Link>
         <Link to="/journey">My Journey</Link>
+        <Link to="/testing">My Testing Area</Link>
       </div>
       <section>
         <div className="main-heading-container">

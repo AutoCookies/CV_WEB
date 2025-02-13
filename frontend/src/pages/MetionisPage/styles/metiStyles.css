@@ -41,6 +41,10 @@
   max-height: 200vh;
 }
 
+.side-bar, .right-sides {
+  height: 1300px;
+}
+
 /* Remove top margin on larger screens */
 @media (min-width: 48rem) {
   .right-sides {
@@ -56,4 +60,9 @@ h3 {
 .name {
   font-size: 3.75rem; /* 60px in rems */
   font-weight: bold;
+}
+
+p {
+  color: black;
+  width: 400px;
 }

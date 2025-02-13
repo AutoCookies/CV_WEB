@@ -1,0 +1,26 @@
+body {
+    background-color: #dffadd;
+    -webkit-transform: perspective(900px);
+    -webkit-transform-style: preserve-3d;
+}
+
+.testing img {
+    position: absolute;
+}
+
+.testing .tree1 {
+    z-index: 3;
+    width: 500px;
+}
+
+.tree2 {
+    left: 400px;
+    z-index: 2;
+    width: 350px;
+}
+
+.tree3 {
+    z-index: 1;
+    left: 200px;
+    width: 400px;
+}
