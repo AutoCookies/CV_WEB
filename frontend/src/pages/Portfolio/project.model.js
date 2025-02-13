@@ -110,5 +110,5 @@ export const projects = [
     img: "",
     sourceURL: "https://github.com/Metionis/Data-Analisis-Portfolio/blob/main/house_prices_mining_with_decision_tree_in_machine_learning/decision_tree_example.ipynb",
     siteURL: "https://github.com/Metionis/Data-Analisis-Portfolio/blob/main/house_prices_mining_with_decision_tree_in_machine_learning/decision_tree_example.ipynb"
-  }
+  },
 ]
