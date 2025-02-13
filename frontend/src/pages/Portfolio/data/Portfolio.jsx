@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./portfolioStyles.css";
+import "../styles/portfolioStyles.css";
 
 import PaginatedProjects from './PaginatedProjects';
 

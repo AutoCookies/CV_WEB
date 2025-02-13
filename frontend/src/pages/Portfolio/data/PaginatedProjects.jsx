@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./portfolioStyles.css";
-import { projects } from './project.model.js';
+import "../styles/portfolioStyles.css";
+import { projects } from './dataproject.model.js';
 
 const PROJECTS_PER_PAGE = 9;
 

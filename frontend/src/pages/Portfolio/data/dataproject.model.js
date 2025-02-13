@@ -103,12 +103,4 @@ export const projects = [
     sourceURL: "https://github.com/Metionis/Data-Analisis-Portfolio/blob/main/customer_booking_mining/customer_booking.csv",
     siteURL: "https://github.com/Metionis/Data-Analisis-Portfolio/blob/main/customer_booking_mining/customer_booking_mining.ipynb"
   },
-  {
-    name: "HOUSE PRICE PREDICTION",
-    date: "15/5/2023",
-    overview: "Using Python, Pandas, Numpy, Matplotlib to analyze the data. The using Machine Learning for prediction.",
-    img: "",
-    sourceURL: "https://github.com/Metionis/Data-Analisis-Portfolio/blob/main/house_prices_mining_with_decision_tree_in_machine_learning/decision_tree_example.ipynb",
-    siteURL: "https://github.com/Metionis/Data-Analisis-Portfolio/blob/main/house_prices_mining_with_decision_tree_in_machine_learning/decision_tree_example.ipynb"
-  },
 ]

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./styles.css";
+import "./styles/styles.css";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
@@ -17,13 +17,15 @@ const HomePage = () => {
   return (
     <div className={`homepage ${showHeading ? 'show-heading' : ''}`}>
       <div className="navigate">
-        <Link to="/mycv">About me</Link>
-        <Link to="/data_projects">My Data Science Projects</Link>
-        <Link to="/web_projects">My Web Projects</Link>
+        <Link to="/mycv">My CV</Link>
+        <Link to="/data_projects">Data Science Projects</Link>
+        <Link to="/web_projects">Web Projects</Link>
+        <Link to="/games">My Games</Link>
+        <Link to="/about">My Journey</Link>
       </div>
       <section>
         <div className="main-heading-container">
-          <h1 className="main-heading">HEY! WELCOME TO MY PAGE</h1>
+          <h1 className="main-heading">HEY! WELCOME TO MY PAGE YOU WILL FIND SPECIAL THINGS HERE</h1>
         </div>
       </section>
     </div>
