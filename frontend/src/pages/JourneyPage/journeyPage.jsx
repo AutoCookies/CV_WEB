@@ -46,6 +46,16 @@ const Journey = () => {
                 <h3>Begin to learn Machine Learning</h3>
                 <p>So I started my journey with Machine Learning on Youtube and COURSERA</p>
             </div>
+            <div className="card6">
+                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>5</span>
+                <h3>Do some Project about Machine Learning</h3>
+                <p>As before I practice my skill by doing some real world projects</p>
+            </div>
+            <div className="card7">
+                <span style={{ fontSize: '2rem', fontWeight: 'bold', color: '#ff9f43' }}>5</span>
+                <h3>Begin Study Web Development</h3>
+                <p>I see there are so many people study this, so I just follow.</p>
+            </div>
         </div>
     );
 }
