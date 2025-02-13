@@ -6,6 +6,7 @@ import WebPortfolio from './pages/Portfolio/web/webPortfolio';
 import Feedback from "./pages/FeedbackPage/Feedback";
 import PaginatedProjects from "./pages/Portfolio/data/PaginatedProjects";
 import WebPaginatedProjects from "./pages/Portfolio/web/webProjects";
+import Journey from "./pages/JourneyPage/journeyPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/data_projects" element={<Portfolio />}/>
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/web_projects" element={<WebPortfolio />} />
+        <Route path="journey" element={<Journey />} />
       </Routes>
     </BrowserRouter>
   );
